@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE subjectScheme
+  PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "map.dtd">
+<subjectScheme>
+   <subjectHead navtitle="Product" id="product-head">
+      <subjectdef keys="prod-active-response" navtitle="Active Response">
+         <subjectdef keys="prod-active-response-v2-4-x" navtitle="MAR 2.4.x">
+            <subjectdef keys="prod-active-response-v2-4-4" navtitle="MAR 2.4.4"/>
+            <subjectdef keys="prod-active-response-v2-4-3" navtitle="MAR 2.4.3"/>
+            <subjectdef keys="prod-active-response-v2-4-2" navtitle="MAR 2.4.2"/>
+            <subjectdef keys="prod-active-response-v2-4-1" navtitle="MAR 2.4.1"/>
+            <subjectdef keys="prod-active-response-v2-4-0" navtitle="MAR 2.4.0"/>
+         </subjectdef>
+         <subjectdef keys="prod-active-response-v2-3-x" navtitle="MAR 2.3.x">
+            <subjectdef keys="prod-active-response-v2-3-0" navtitle="MAR 2.3.0"/>
+         </subjectdef>
+         <subjectdef keys="prod-active-response-v2-2-x" navtitle="MAR 2.2.x">
+            <subjectdef keys="prod-active-response-v2-2-0" navtitle="MAR 2.2.0"/>
+         </subjectdef>
+         <subjectdef keys="prod-active-response-v2-1-x" navtitle="MAR 2.1.x">
+            <subjectdef keys="prod-active-response-v2-1-x" navtitle="MAR 2.1.0"/>
+         </subjectdef>
+         <subjectdef keys="prod-active-response-v2-0-x" navtitle="MAR 2.0.x">
+            <subjectdef keys="prod-active-response-v2-0-0" navtitle="MAR 2.0.0"/>
+            <subjectdef keys="prod-active-response-v2-0-1" navtitle="MAR 2.0.1"/>
+         </subjectdef>
+         <subjectdef keys="prod-active-response-v1-1-x" navtitle="MAR 1.1.x"/>
+         <subjectdef keys="prod-active-response-v1-0-x" navtitle="MAR 1.0.x"/>
+      </subjectdef>
+   </subjectHead>
+</subjectScheme>

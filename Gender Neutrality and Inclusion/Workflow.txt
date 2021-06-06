@@ -1,7 +1,0 @@
-Predict the BiasInfluentialFactor on Test.csv using Classification
-Predict the FitmentPercent on Test.csv using Regression
-Remove related biased X features, (mostly not required) re-label related biases to None on the BiasInfluentialFactor column
-Predict the FitmentPercent on Test.csv using Regression
-Create an Ensemble of models to improve performance
-Tune the hyper-parameters for further performance improvement
-Create a presentation

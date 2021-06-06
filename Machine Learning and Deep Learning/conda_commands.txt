@@ -1,0 +1,12 @@
+conda create -n mytfenv python=3.7 # creating a conda environment
+conda activate mytfenv # activate an environment
+conda deactivate # deactivate an environment
+pip install -r requirements.txt # installing from the requirements file
+
+
+# For tab autocomplete to work in Jupyter notebook
+pip install jedi==0.17.2
+
+# To import tf.keras.preprocessing.image_dataset_from_directory
+# Note: Automatically uninstalled "gast-0.2.2" upon installing tf-nightly
+pip install tf-nightly

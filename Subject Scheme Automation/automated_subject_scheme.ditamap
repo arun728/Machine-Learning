@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subjectScheme
-  PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "map.dtd">
+<?xml version="1.0" ?>
 <subjectScheme>
    <subjectHead navtitle="Product" id="product-head">
       <subjectdef keys="prod-active-response" navtitle="Active Response">
          <subjectdef keys="prod-active-response-v2-4-x" navtitle="MAR 2.4.x">
+            <subjectdef keys="prod-active-response-v2-4-5" navtitle="MAR 2.4.5"/>
             <subjectdef keys="prod-active-response-v2-4-4" navtitle="MAR 2.4.4"/>
             <subjectdef keys="prod-active-response-v2-4-3" navtitle="MAR 2.4.3"/>
             <subjectdef keys="prod-active-response-v2-4-2" navtitle="MAR 2.4.2"/>
@@ -18,14 +17,8 @@
             <subjectdef keys="prod-active-response-v2-2-0" navtitle="MAR 2.2.0"/>
          </subjectdef>
          <subjectdef keys="prod-active-response-v2-1-x" navtitle="MAR 2.1.x">
-            <subjectdef keys="prod-active-response-v2-1-x" navtitle="MAR 2.1.0"/>
+            <subjectdef keys="prod-active-response-v2-1-0" navtitle="MAR 2.1.0"/>
          </subjectdef>
-         <subjectdef keys="prod-active-response-v2-0-x" navtitle="MAR 2.0.x">
-            <subjectdef keys="prod-active-response-v2-0-0" navtitle="MAR 2.0.0"/>
-            <subjectdef keys="prod-active-response-v2-0-1" navtitle="MAR 2.0.1"/>
-         </subjectdef>
-         <subjectdef keys="prod-active-response-v1-1-x" navtitle="MAR 1.1.x"/>
-         <subjectdef keys="prod-active-response-v1-0-x" navtitle="MAR 1.0.x"/>
       </subjectdef>
       <subjectdef keys="prod-advanced-threat-defense" navtitle="Advanced Threat Defense">
          <subjectdef keys="prod-advanced-threat-defense-v4-12-x" navtitle="ATD 4.12.x"/>
@@ -45,18 +38,6 @@
             <subjectdef keys="prod-advanced-threat-defense-v4-0-4" navtitle="ATD 4.0.4"/>
             <subjectdef keys="prod-advanced-threat-defense-v4-0-0" navtitle="ATD 4.0.0"/>
          </subjectdef>
-         <subjectdef keys="prod-advanced-threat-defense-v3-10-x" navtitle="ATD 3.10.x">
-            <subjectdef keys="prod-advanced-threat-defense-v3-10-2" navtitle="ATD 3.10.2"/>
-            <subjectdef keys="prod-advanced-threat-defense-v3-10-0" navtitle="ATD 3.10.0"/>
-         </subjectdef>
-         <subjectdef keys="prod-advanced-threat-defense-v3-8-x" navtitle="ATD 3.8.x">
-            <subjectdef keys="prod-advanced-threat-defense-v3-8-2" navtitle="ATD 3.8.2"/>
-            <subjectdef keys="prod-advanced-threat-defense-v3-8-0" navtitle="ATD 3.8.0"/>
-         </subjectdef>
-         <subjectdef keys="prod-advanced-threat-defense-v3-6-x" navtitle="ATD 3.6.x">
-            <subjectdef keys="prod-advanced-threat-defense-v3-6-2" navtitle="ATD 3.6.2"/>
-            <subjectdef keys="prod-advanced-threat-defense-v3-6-0" navtitle="ATD 3.6.0"/>
-         </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-agent" navtitle="Agent">
          <subjectdef keys="prod-agent-v6-0-x" navtitle="MA 6.0.x"/>
@@ -73,12 +54,7 @@
             <subjectdef keys="prod-agent-v5-0-5" navtitle="MA 5.0.5"/>
             <subjectdef keys="prod-agent-v5-0-4" navtitle="MA 5.0.4"/>
             <subjectdef keys="prod-agent-v5-0-3" navtitle="MA 5.0.3"/>
-            <subjectdef keys="prod-agent-v5-0-2" navtitle="MA 5.0.2"/>
-            <subjectdef keys="prod-agent-v5-0-1" navtitle="MA 5.0.1"/>
-            <subjectdef keys="prod-agent-v5-0-0" navtitle="MA 5.0.0"/>
          </subjectdef>
-         <subjectdef keys="prod-agent-v3-7-x" navtitle="MA 3.7.x"/>
-         <subjectdef keys="prod-agent-v3-6-x" navtitle="MA 3.6.x"/>
       </subjectdef>
       <subjectdef keys="prod-application-control-change-control" navtitle="Application Control and Change Control">
          <subjectdef keys="prod-application-change-control" navtitle="Application and Change Control">
@@ -121,7 +97,6 @@
                <subjectdef keys="prod-application-control-v6-1-1" navtitle="AC 6.1.1"/>
                <subjectdef keys="prod-application-control-v6-1-0" navtitle="AC 6.1.0"/>
             </subjectdef>
-            <subjectdef keys="prod-application-control-v5-1-x" navtitle="AC 5.1.x"/>
          </subjectdef>
          <subjectdef keys="prod-change-control" navtitle="Change Control">
             <subjectdef keys="prod-change-control-v8-3-x" navtitle="CC 8.3.x"/>
@@ -158,12 +133,11 @@
                <subjectdef keys="prod-change-control-v6-1-1" navtitle="CC 6.1.1"/>
                <subjectdef keys="prod-change-control-v6-1-0" navtitle="CC 6.1.0"/>
             </subjectdef>
-            <subjectdef keys="prod-change-control-v5-1-x" navtitle="CC 5.1.x"/>
          </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-benchmark-editor" navtitle="Benchmark Editor">
-         <subjectdef keys="prod-benchmark-editor-v6-0-x" navtitle="BE 6.0.x"/>
          <subjectdef keys="prod-benchmark-editor-v6-2-x" navtitle="BE 6.2.x"/>
+         <subjectdef keys="prod-benchmark-editor-v6-0-x" navtitle="BE 6.0.x"/>
       </subjectdef>
       <subjectdef keys="prod-client-proxy" navtitle="Client Proxy">
          <subjectdef keys="prod-client-proxy-v4-1-x" navtitle="MCP 4.1.x"/>
@@ -197,7 +171,7 @@
          </subjectdef>
          <subjectdef keys="prod-cloud-workload-discovery-v5-0-x" navtitle="CWS 5.0.x">
             <subjectdef keys="prod-cloud-workload-discovery-v5-0-1" navtitle="CWS 5.0.1"/>
-            <subjectdef keys="prod-cloud-workload-discovery-v4-6-0" navtitle="CWS 5.0.0"/>
+            <subjectdef keys="prod-cloud-workload-discovery-v5-0-0" navtitle="CWS 5.0.0"/>
          </subjectdef>
          <subjectdef keys="prod-cloud-workload-discovery-v4-5-x" navtitle="CWS 4.5.x">
             <subjectdef keys="prod-cloud-workload-discovery-v4-5-1" navtitle="CWS 4.5.1"/>
@@ -230,21 +204,8 @@
          <subjectdef keys="prod-content-security-reporter-v2-4-x" navtitle="CSR 2.4.x">
             <subjectdef keys="prod-content-security-reporter-v2-4-0" navtitle="CSR 2.4.0"/>
          </subjectdef>
-         <subjectdef keys="prod-content-security-reporter-v2-3-x" navtitle="CSR 2.3.x">
-            <subjectdef keys="prod-content-security-reporter-v2-3-0" navtitle="CSR 2.3.0"/>
-         </subjectdef>
-         <subjectdef keys="prod-content-security-reporter-v2-2-x" navtitle="CSR 2.2.x">
-            <subjectdef keys="prod-content-security-reporter-v2-2-0" navtitle="CSR 2.2.0"/>
-         </subjectdef>
-         <subjectdef keys="prod-content-security-reporter-v2-1-x" navtitle="CSR 2.1.x">
-            <subjectdef keys="prod-content-security-reporter-v2-1-1" navtitle="CSR 2.1.1"/>
-            <subjectdef keys="prod-content-security-reporter-v2-1-0" navtitle="CSR 2.1.0"/>
-         </subjectdef>
-         <subjectdef keys="prod-content-security-reporter-v2-0-x" navtitle="CSR 2.0.x"/>
-         <subjectdef keys="prod-content-security-reporter-v1-0-x" navtitle="CSR 1.0.x"/>
       </subjectdef>
-      <subjectdef keys="prod-database-activity-monitoring"
-                  navtitle="Database Activity Monitoring">
+      <subjectdef keys="prod-database-activity-monitoring" navtitle="Database Activity Monitoring">
          <subjectdef keys="prod-database-activity-monitoring-v5-2-x" navtitle="DAM 5.2.x">
             <subjectdef keys="prod-database-activity-monitoring-v5-2-4" navtitle="DAM 5.2.4"/>
             <subjectdef keys="prod-database-activity-monitoring-v5-2-3" navtitle="DAM 5.2.3"/>
@@ -259,7 +220,9 @@
       </subjectdef>
       <subjectdef keys="prod-database-security" navtitle="Database Security">
          <subjectdef keys="prod-database-security-v5-3-x" navtitle="MDS 5.3.x"/>
-         <subjectdef keys="prod-database-security-v5-2-x" navtitle="MDS 5.2.x"/>
+         <subjectdef keys="prod-database-security-v5-2-x" navtitle="MDS 5.2.x">
+            <subjectdef keys="prod-database-security-v5-2-6" navtitle="MDS 5.2.6"/>
+         </subjectdef>
          <subjectdef keys="prod-database-security-v4-8-x" navtitle="MDS 4.8.x"/>
          <subjectdef keys="prod-database-security-v4-7-x" navtitle="MDS 4.7.x"/>
          <subjectdef keys="prod-database-security-v4-6-x" navtitle="MDS 4.6.x">
@@ -271,33 +234,20 @@
             <subjectdef keys="prod-database-security-v4-6-1" navtitle="MDS 4.6.1"/>
             <subjectdef keys="prod-database-security-v4-6-0" navtitle="MDS 4.6.0"/>
          </subjectdef>
-         <subjectdef keys="prod-database-security-v4-4-x" navtitle="MDS 4.4.x">
-            <subjectdef keys="prod-database-security-v4-4-9" navtitle="MDS 4.4.9"/>
-            <subjectdef keys="prod-database-security-v4-4-8" navtitle="MDS 4.4.8"/>
-            <subjectdef keys="prod-database-security-v4-4-6" navtitle="MDS 4.4.6"/>
-            <subjectdef keys="prod-database-security-v4-4-0" navtitle="MDS 4.4.0"/>
-         </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-data-exchange-layer" navtitle="Data Exchange Layer">
-         <subjectdef keys="prod-data-exchange-layer-v6-2-x" navtitle="DXL 6.2.x"/>
          <subjectdef keys="prod-data-exchange-layer-v6-0-x" navtitle="DXL 6.0.x"/>
          <subjectdef keys="prod-data-exchange-layer-v5-0-0" navtitle="DXL 5.0.x"/>
          <subjectdef keys="prod-data-exchange-layer-v4-1-x" navtitle="DXL 4.1.x">
             <subjectdef keys="prod-data-exchange-layer-v4-1-2" navtitle="DXL 4.1.2"/>
             <subjectdef keys="prod-data-exchange-layer-v4-1-0" navtitle="DXL 4.1.0"/>
          </subjectdef>
-         <subjectdef keys="prod-data-exchange-layer-v4-1-0" navtitle="DXL 4.0.x">
+         <subjectdef keys="prod-data-exchange-layer-v4-0-x" navtitle="DXL 4.0.x">
             <subjectdef keys="prod-data-exchange-layer-v4-0-0" navtitle="DXL 4.0.0"/>
          </subjectdef>
          <subjectdef keys="prod-data-exchange-layer-v3-1-x" navtitle="DXL 3.1.x">
             <subjectdef keys="prod-data-exchange-layer-v3-1-0" navtitle="DXL 3.1.0"/>
          </subjectdef>
-         <subjectdef keys="prod-data-exchange-layer-v3-0-x" navtitle="DXL 3.0.x">
-            <subjectdef keys="prod-data-exchange-layer-v3-0-1" navtitle="DXL 3.0.1"/>
-            <subjectdef keys="prod-data-exchange-layer-v3-0-0" navtitle="DXL 3.0.0"/>
-         </subjectdef>
-         <subjectdef keys="prod-data-exchange-layer-v2-2-x" navtitle="DXL 2.2.x"/>
-         <subjectdef keys="prod-data-exchange-layer-v2-0-0" navtitle="DXL 2.0.x"/>
       </subjectdef>
       <subjectdef keys="prod-data-loss-prevention" navtitle="Data Loss Prevention">
          <subjectdef keys="prod-data-loss-prevention-mvision" navtitle="MVISION">
@@ -364,83 +314,6 @@
                <subjectdef keys="prod-data-loss-prevention-v11-1-0-prevent" navtitle="DLPP 11.1.x"/>
                <subjectdef keys="prod-data-loss-prevention-v11-1-0-monitor" navtitle="DLPM 11.1.x"/>
             </subjectdef>
-            <subjectdef keys="prod-data-loss-prevention-v11-0-x" navtitle="DLP 11.0.x">
-               <subjectdef keys="prod-data-loss-prevention-v11-0-7" navtitle="DLP 11.0.7"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-0-6" navtitle="DLP 11.0.6"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-0-5" navtitle="DLP 11.0.5"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-0-4" navtitle="DLP 11.0.4"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-0-3" navtitle="DLP 11.0.3"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-0-2" navtitle="DLP 11.0.2"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-0-1" navtitle="DLP 11.0.1"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-0-0" navtitle="DLP 11.0.0"/>
-            </subjectdef>
-            <subjectdef keys="prod-data-loss-prevention-v10-0-x" navtitle="DLP 10.0.x">
-               <subjectdef keys="prod-data-loss-prevention-v10-0-5" navtitle="DLP 10.0.5">
-                  <subjectdef keys="prod-data-loss-prevention-v10-0-5-endpoint" navtitle="DLPE 10.0.5"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v10-0-3" navtitle="DLP 10.0.3">
-                  <subjectdef keys="prod-data-loss-prevention-v10-0-3-endpoint" navtitle="DLPE 10.0.3"/>
-                  <subjectdef keys="prod-data-loss-prevention-v10-0-3-prevent" navtitle="DLPP 10.0.3"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v10-0-2" navtitle="DLP 10.0.2">
-                  <subjectdef keys="prod-data-loss-prevention-v10-0-2-endpoint" navtitle="DLPE 10.0.2"/>
-                  <subjectdef keys="prod-data-loss-prevention-v10-0-2-prevent" navtitle="DLPP 10.0.2"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v10-0-1" navtitle="DLP 10.0.1">
-                  <subjectdef keys="prod-data-loss-prevention-v10-0-1-prevent" navtitle="DLPP 10.0.1"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v10-0-0" navtitle="DLP 10.0.0">
-                  <subjectdef keys="prod-data-loss-prevention-v10-0-0-discover" navtitle="DLPD 10.0.0"/>
-                  <subjectdef keys="prod-data-loss-prevention-v10-0-0-endpoint" navtitle="DLPE 10.0.0"/>
-                  <subjectdef keys="prod-data-loss-prevention-v10-0-0-endpoint-mac" navtitle="DLPMac 10.0.0"/>
-                  <subjectdef keys="prod-data-loss-prevention-v10-0-0-prevent" navtitle="DLPP 10.0.0"/>
-               </subjectdef>
-            </subjectdef>
-            <subjectdef keys="prod-data-loss-prevention-v9-4-x" navtitle="DLP 9.4.x">
-               <subjectdef keys="prod-data-loss-prevention-v9-4-3" navtitle="DLP 9.4.3">
-                  <subjectdef keys="prod-data-loss-prevention-v9-4-3-endpoint" navtitle="DLPE 9.4.3"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v9-4-2" navtitle="DLP 9.4.2">
-                  <subjectdef keys="prod-data-loss-prevention-v9-4-2-discover" navtitle="DLPD 9.4.2"/>
-                  <subjectdef keys="prod-data-loss-prevention-v9-4-2-endpoint" navtitle="DLPE 9.4.2"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v9-4-1" navtitle="DLP 9.4.1">
-                  <subjectdef keys="prod-data-loss-prevention-v9-4-1-discover" navtitle="DLPD 9.4.1"/>
-                  <subjectdef keys="prod-data-loss-prevention-v9-4-1-endpoint" navtitle="DLPE 9.4.1"/>
-                  <subjectdef keys="prod-data-loss-prevention-v9-4-1-endpoint-mac" navtitle="DLPMac 9.4.1"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v9-4-0" navtitle="DLP 9.4.0">
-                  <subjectdef keys="prod-data-loss-prevention-v9-4-0-endpoint" navtitle="DLPE 9.4.0"/>
-               </subjectdef>
-            </subjectdef>
-            <subjectdef keys="prod-data-loss-prevention-v9-3-x" navtitle="DLP 9.3.x">
-               <subjectdef keys="prod-data-loss-prevention-v9-3-6" navtitle="DLP 9.3.6">
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-6-endpoint" navtitle="DLPE 9.3.6"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v9-3-5" navtitle="DLP 9.3.5">
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-5-endpoint" navtitle="DLPE 9.3.5"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v9-3-4" navtitle="DLP 9.3.4">
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-4-discover" navtitle="DLPD 9.3.4"/>
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-4-endpoint" navtitle="DLPE 9.3.4"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v9-3-3" navtitle="DLP 9.3.3">
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-3-discover" navtitle="DLPD 9.3.3"/>
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-3-endpoint" navtitle="DLPE 9.3.3"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v9-3-2" navtitle="DLP 9.3.2">
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-2-discover" navtitle="DLPD 9.3.2"/>
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-2-endpoint" navtitle="DLPE 9.3.2"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v9-3-1" navtitle="DLP 9.3.1">
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-1-discover" navtitle="DLPD 9.3.1"/>
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-1-endpoint" navtitle="DLPE 9.3.1"/>
-               </subjectdef>
-               <subjectdef keys="prod-data-loss-prevention-v9-3-0" navtitle="DLP 9.3.0">
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-0-endpoint" navtitle="DLPE 9.3.0"/>
-                  <subjectdef keys="prod-data-loss-prevention-v9-3-0-endpoint-mac" navtitle="DLPMac 9.3.0"/>
-               </subjectdef>
-            </subjectdef>
          </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-drive-encryption" navtitle="Drive Encryption">
@@ -503,16 +376,14 @@
       <subjectdef keys="prod-endpoint-protection-mac" navtitle="Endpoint Protection for Mac">
          <subjectdef keys="prod-endpoint-protection-mac-v2-3-x" navtitle="MEPM 2.3.x"/>
          <subjectdef keys="prod-endpoint-protection-mac-v2-2-x" navtitle="MEPM 2.2.x"/>
-         <subjectdef keys="prod-endpoint-protection-mac-v2-2-x" navtitle="MEPM 2.1.x"/>
+         <subjectdef keys="prod-endpoint-protection-mac-v2-1-x" navtitle="MEPM 2.1.x"/>
       </subjectdef>
       <subjectdef keys="prod-endpoint-security" navtitle="Endpoint Security">
          <subjectdef keys="prod-endpoint-security-v10-7-x" navtitle="ENS 10.7.x">
-            <subjectdef keys="prod-endpoint-security-v10-7-0-threat-prevention"
-                        navtitle="ENS-TP 10.7.x"/>
+            <subjectdef keys="prod-endpoint-security-v10-7-0-threat-prevention" navtitle="ENS-TP 10.7.x"/>
             <subjectdef keys="prod-endpoint-security-v10-7-0-firewall" navtitle="ENS-FW 10.7.x"/>
             <subjectdef keys="prod-endpoint-security-v10-7-0-web-control" navtitle="ENS-WC 10.7.x"/>
-            <subjectdef keys="prod-endpoint-security-v10-7-0-adaptive-threat-protection"
-                        navtitle="ENS-ATP 10.7.x"/>
+            <subjectdef keys="prod-endpoint-security-v10-7-0-adaptive-threat-protection" navtitle="ENS-ATP 10.7.x"/>
          </subjectdef>
          <subjectdef keys="prod-endpoint-security-v10-6-x" navtitle="ENS 10.6.x">
             <subjectdef keys="prod-endpoint-security-v10-6-13" navtitle="ENS 10.6.13"/>
@@ -529,12 +400,10 @@
             <subjectdef keys="prod-endpoint-security-v10-6-2" navtitle="ENS 10.6.2"/>
             <subjectdef keys="prod-endpoint-security-v10-6-1" navtitle="ENS 10.6.1"/>
             <subjectdef keys="prod-endpoint-security-v10-6-0" navtitle="ENS 10.6.0">
-               <subjectdef keys="prod-endpoint-security-v10-6-0-threat-prevention"
-                           navtitle="ENS-TP 10.6.0"/>
+               <subjectdef keys="prod-endpoint-security-v10-6-0-threat-prevention" navtitle="ENS-TP 10.6.0"/>
                <subjectdef keys="prod-endpoint-security-v10-6-0-firewall" navtitle="ENS-FW 10.6.0"/>
                <subjectdef keys="prod-endpoint-security-v10-6-0-web-control" navtitle="ENS-WC 10.6.0"/>
-               <subjectdef keys="prod-endpoint-security-v10-6-0-adaptive-threat-protection"
-                           navtitle="ENS-ATP 10.6.0"/>
+               <subjectdef keys="prod-endpoint-security-v10-6-0-adaptive-threat-protection" navtitle="ENS-ATP 10.6.0"/>
             </subjectdef>
          </subjectdef>
          <subjectdef keys="prod-endpoint-security-v10-5-x" navtitle="ENS 10.5.x">
@@ -543,69 +412,26 @@
             <subjectdef keys="prod-endpoint-security-v10-5-8" navtitle="ENS 10.5.8"/>
             <subjectdef keys="prod-endpoint-security-v10-5-7" navtitle="ENS 10.5.7"/>
             <subjectdef keys="prod-endpoint-security-v10-5-6" navtitle="ENS 10.5.6">
-               <subjectdef keys="prod-endpoint-security-v10-5-6-threat-prevention"
-                           navtitle="ENS-TP 10.5.6"/>
+               <subjectdef keys="prod-endpoint-security-v10-5-6-threat-prevention" navtitle="ENS-TP 10.5.6"/>
             </subjectdef>
             <subjectdef keys="prod-endpoint-security-v10-5-5" navtitle="ENS 10.5.5">
-               <subjectdef keys="prod-endpoint-security-v10-5-5-threat-prevention"
-                           navtitle="ENS-TP 10.5.5"/>
+               <subjectdef keys="prod-endpoint-security-v10-5-5-threat-prevention" navtitle="ENS-TP 10.5.5"/>
             </subjectdef>
             <subjectdef keys="prod-endpoint-security-v10-5-4" navtitle="ENS 10.5.4"/>
             <subjectdef keys="prod-endpoint-security-v10-5-3" navtitle="ENS 10.5.3">
-               <subjectdef keys="prod-endpoint-security-v10-5-3-adaptive-threat-protection"
-                           navtitle="ENS-ATP 10.5.3"/>
+               <subjectdef keys="prod-endpoint-security-v10-5-3-adaptive-threat-protection" navtitle="ENS-ATP 10.5.3"/>
             </subjectdef>
             <subjectdef keys="prod-endpoint-security-v10-5-2" navtitle="ENS 10.5.2"/>
             <subjectdef keys="prod-endpoint-security-v10-5-1" navtitle="ENS 10.5.1">
-               <subjectdef keys="prod-endpoint-security-v10-5-1-adaptive-threat-protection"
-                           navtitle="ENS-ATP 10.5.1"/>
+               <subjectdef keys="prod-endpoint-security-v10-5-1-adaptive-threat-protection" navtitle="ENS-ATP 10.5.1"/>
             </subjectdef>
             <subjectdef keys="prod-endpoint-security-v10-5-0" navtitle="ENS 10.5.0">
-               <subjectdef keys="prod-endpoint-security-v10-5-0-threat-prevention"
-                           navtitle="ENS-TP 10.5.0"/>
+               <subjectdef keys="prod-endpoint-security-v10-5-0-threat-prevention" navtitle="ENS-TP 10.5.0"/>
                <subjectdef keys="prod-endpoint-security-v10-5-0-firewall" navtitle="ENS-FW 10.5.0"/>
                <subjectdef keys="prod-endpoint-security-v10-5-0-web-control" navtitle="ENS-WC 10.5.0"/>
-               <subjectdef keys="prod-endpoint-security-v10-5-0-adaptive-threat-protection"
-                           navtitle="ENS-ATP 10.5.0"/>
+               <subjectdef keys="prod-endpoint-security-v10-5-0-adaptive-threat-protection" navtitle="ENS-ATP 10.5.0"/>
             </subjectdef>
          </subjectdef>
-         <subjectdef keys="prod-endpoint-security-v10-2-x" navtitle="ENS 10.2.x">
-            <subjectdef keys="prod-endpoint-security-v10-2-3" navtitle="ENS 10.2.3">
-               <subjectdef keys="prod-endpoint-security-v10-2-3-threat-prevention"
-                           navtitle="ENS-TP 10.2.3"/>
-               <subjectdef keys="prod-endpoint-security-v10-2-3-firewall" navtitle="ENS-FW 10.2.3"/>
-               <subjectdef keys="prod-endpoint-security-v10-2-3-web-control" navtitle="ENS-WC 10.2.3"/>
-               <subjectdef keys="prod-endpoint-security-v10-2-3-adaptive-threat-protection"
-                           navtitle="ENS-ATP 10.2.3"/>
-            </subjectdef>
-            <subjectdef keys="prod-endpoint-security-v10-2-2" navtitle="ENS 10.2.2">
-               <subjectdef keys="prod-endpoint-security-v10-2-2-threat-prevention"
-                           navtitle="ENS-TP 10.2.2"/>
-               <subjectdef keys="prod-endpoint-security-v10-2-2-adaptive-threat-protection"
-                           navtitle="ENS-ATP 10.2.2"/>
-            </subjectdef>
-            <subjectdef keys="prod-endpoint-security-v10-2-1" navtitle="ENS 10.2.1">
-               <subjectdef keys="prod-endpoint-security-v10-2-1-threat-prevention"
-                           navtitle="ENS-TP 10.2.1"/>
-               <subjectdef keys="prod-endpoint-security-v10-2-1-adaptive-threat-protection"
-                           navtitle="ENS-ATP 10.2.1"/>
-            </subjectdef>
-            <subjectdef keys="prod-endpoint-security-v10-2-0" navtitle="ENS 10.2.0">
-               <subjectdef keys="prod-endpoint-security-v10-2-0-threat-prevention"
-                           navtitle="ENS-TP 10.2.0"/>
-            </subjectdef>
-         </subjectdef>
-         <subjectdef keys="prod-endpoint-security-v10-1-x" navtitle="ENS 10.1.x">
-            <subjectdef keys="prod-endpoint-security-v10-1-1" navtitle="ENS 10.1.1">
-               <subjectdef keys="prod-endpoint-security-v10-1-1-threat-prevention"
-                           navtitle="ENS-TP 10.1.1"/>
-            </subjectdef>
-            <subjectdef keys="prod-endpoint-security-v10-1-0" navtitle="ENS 10.1.0">
-               <subjectdef keys="prod-endpoint-security-v10-1-0-threat-prevention"
-                           navtitle="ENS-TP 10.1.0"/>
-            </subjectdef>
-         </subjectdef>
-         <subjectdef keys="prod-endpoint-security-v10-0-x" navtitle="ENS 10.0.x"/>
       </subjectdef>
       <subjectdef keys="prod-endpoint-security-servers" navtitle="Endpoint Security for Servers">
          <subjectdef keys="prod-endpoint-security-servers-v5-2-0" navtitle="ENSS 5.2.x"/>
@@ -624,8 +450,6 @@
          <subjectdef keys="prod-endpoint-upgrade-assistant-v2-6-x" navtitle="EUA 2.6.x"/>
          <subjectdef keys="prod-endpoint-upgrade-assistant-v2-5-x" navtitle="EUA 2.5.x"/>
          <subjectdef keys="prod-endpoint-upgrade-assistant-v2-4-x" navtitle="EUA 2.4.x"/>
-         <subjectdef keys="prod-endpoint-upgrade-assistant-v2-3-x" navtitle="EUA 2.3.x"/>
-         <subjectdef keys="prod-endpoint-upgrade-assistant-v2-2-0" navtitle="EUA 2.2.x"/>
       </subjectdef>
       <subjectdef keys="prod-enterprise-security-manager" navtitle="Enterprise Security Manager">
          <subjectdef keys="prod-enterprise-security-manager-v11-4-x" navtitle="ESM 11.4.x"/>
@@ -650,16 +474,6 @@
             <subjectdef keys="prod-enterprise-security-manager-v10-1-2" navtitle="ESM 10.1.2"/>
             <subjectdef keys="prod-enterprise-security-manager-v10-1-1" navtitle="ESM 10.1.1"/>
             <subjectdef keys="prod-enterprise-security-manager-v10-1-0" navtitle="ESM 10.1.0"/>
-         </subjectdef>
-         <subjectdef keys="prod-enterprise-security-manager-v10-0-x" navtitle="ESM 10.0.x">
-            <subjectdef keys="prod-enterprise-security-manager-v10-0-3" navtitle="ESM 10.0.3"/>
-            <subjectdef keys="prod-enterprise-security-manager-v10-0-2" navtitle="ESM 10.0.2"/>
-            <subjectdef keys="prod-enterprise-security-manager-v10-0-1" navtitle="ESM 10.0.1"/>
-            <subjectdef keys="prod-enterprise-security-manager-v10-0-0" navtitle="ESM 10.0.0"/>
-         </subjectdef>
-         <subjectdef keys="prod-enterprise-security-manager-v9-6-x" navtitle="ESM 9.6.x">
-            <subjectdef keys="prod-enterprise-security-manager-v9-6-1" navtitle="ESM 9.6.1"/>
-            <subjectdef keys="prod-enterprise-security-manager-v9-6-0" navtitle="ESM 9.6.0"/>
          </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-epo-cloud-bridge" navtitle="ePO Cloud Bridge">
@@ -760,8 +574,7 @@
          </subjectdef>
          <subjectdef keys="prod-logon-collector-v2-2-x" navtitle="MLC 2.2.x"/>
       </subjectdef>
-      <subjectdef keys="prod-management-native-encryption"
-                  navtitle="Management of Native Encryption">
+      <subjectdef keys="prod-management-native-encryption" navtitle="Management of Native Encryption">
          <subjectdef keys="prod-mvision-management-nativeencryption" navtitle="MVISION">
             <subjectdef keys="prod-mvision-management-native-encryption" navtitle="MV-MNE"/>
          </subjectdef>
@@ -783,10 +596,6 @@
             <subjectdef keys="prod-management-native-encryption-v4-0-x" navtitle="MNE 4.0.x">
                <subjectdef keys="prod-management-native-encryption-v4-0-0" navtitle="MNE 4.0.0"/>
             </subjectdef>
-            <subjectdef keys="prod-management-native-encryption-v3-0-x" navtitle="MNE 3.0.x">
-               <subjectdef keys="prod-management-native-encryption-v3-0-1" navtitle="MNE 3.0.1"/>
-               <subjectdef keys="prod-management-native-encryption-v3-0-0" navtitle="MNE 3.0.0"/>
-            </subjectdef>
          </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-move-antivirus" navtitle="MOVE AntiVirus">
@@ -805,8 +614,6 @@
          <subjectdef keys="prod-move-antivirus-v4-0-x" navtitle="MOVE 4.0.x">
             <subjectdef keys="prod-move-antivirus-v4-0-0" navtitle="MOVE 4.0.0"/>
          </subjectdef>
-         <subjectdef keys="prod-move-antivirus-v3-6-1" navtitle="MOVE 3.6.x"/>
-         <subjectdef keys="prod-move-antivirus-v3-5-1" navtitle="MOVE 3.5.x"/>
       </subjectdef>
       <subjectdef keys="prod-mvision-cloudbridge" navtitle="MVISION Cloud Bridge">
          <subjectdef keys="prod-mvision-cloud-bridge" navtitle="MV-CB"/>
@@ -833,8 +640,7 @@
          <subjectdef keys="prod-network-security-platform-v10-1-x" navtitle="NSP 10.1.x">
             <subjectdef keys="prod-network-security-platform-v10-1-0" navtitle="NSP 10.1.0"/>
          </subjectdef>
-         <subjectdef keys="prod-network-security-platform-v9-6-x" navtitle="NSP 9.6.x">
-         </subjectdef>
+         <subjectdef keys="prod-network-security-platform-v9-6-x" navtitle="NSP 9.6.x"/>
          <subjectdef keys="prod-network-security-platform-v9-3-x" navtitle="NSP 9.3.x">
             <subjectdef keys="prod-network-security-platform-v9-3-0" navtitle="NSP 9.3.0"/>
          </subjectdef>
@@ -842,16 +648,12 @@
             <subjectdef keys="prod-network-security-platform-v9-2-0" navtitle="NSP 9.2.0"/>
          </subjectdef>
          <subjectdef keys="prod-network-security-platform-v9-1-x" navtitle="NSP 9.1.x">
-            <subjectdef keys="prod-network-security-platform-v9-1-0-manager-sensor"
-                        navtitle="NSP 9.1.0"/>
-            <subjectdef keys="prod-network-security-platform-v9-1-0-threat-behavior-analysis"
-                        navtitle="NTBA 9.1.0"/>
+            <subjectdef keys="prod-network-security-platform-v9-1-0-manager-sensor" navtitle="NSP 9.1.0"/>
+            <subjectdef keys="prod-network-security-platform-v9-1-0-threat-behavior-analysis" navtitle="NTBA 9.1.0"/>
          </subjectdef>
          <subjectdef keys="prod-network-security-platform-v8-1-x" navtitle="NSP 8.1.x">
-            <subjectdef keys="prod-network-security-platform-v8-1-x-manager-sensor"
-                        navtitle="NSP 8.1.0"/>
-            <subjectdef keys="prod-network-security-platform-v8-1-x-threat-behavior-analysis"
-                        navtitle="NTBA 8.1.0"/>
+            <subjectdef keys="prod-network-security-platform-v8-1-x-manager-sensor" navtitle="NSP 8.1.0"/>
+            <subjectdef keys="prod-network-security-platform-v8-1-x-threat-behavior-analysis" navtitle="NTBA 8.1.0"/>
          </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-partner-businesscenter" navtitle="Partner Business Center">
@@ -882,21 +684,12 @@
          <subjectdef keys="prod-policy-auditor-v6-3-x" navtitle="MPA 6.3.x">
             <subjectdef keys="prod-policy-auditor-v6-3-0" navtitle="MPA 6.3.0"/>
          </subjectdef>
-         <subjectdef keys="prod-policy-auditor-v6-2-x" navtitle="MPA 6.2.x">
-            <subjectdef keys="prod-policy-auditor-v6-2-2" navtitle="MPA 6.2.2"/>
-            <subjectdef keys="prod-policy-auditor-v6-2-0" navtitle="MPA 6.2.0"/>
-         </subjectdef>
-         <subjectdef keys="prod-policy-auditor-v6-0-x" navtitle="MPA 6.0.x">
-            <subjectdef keys="prod-policy-auditor-v6-0-1" navtitle="MPA 6.0.1"/>
-            <subjectdef keys="prod-policy-auditor-v6-0-0" navtitle="MPA 6.0.0"/>
-         </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-quarantine-manager" navtitle="Quarantine Manager">
          <subjectdef keys="prod-quarantine-manager-v7-1-x" navtitle="MQM 7.1.x">
             <subjectdef keys="prod-quarantine-manager-v7-1-1" navtitle="MQM 7.1.1"/>
             <subjectdef keys="prod-quarantine-manager-v7-1-0" navtitle="MQM 7.1.0"/>
          </subjectdef>
-         <subjectdef keys="prod-quarantine-manager-v7-0-1" navtitle="MQM 7.0.x"/>
       </subjectdef>
       <subjectdef keys="prod-public-cloud-security-suite" navtitle="Public Cloud Security Suite">
          <subjectdef keys="prod-public-cloud-security-suite-v4-6-x" navtitle="PCS 4.6.x">
@@ -924,19 +717,13 @@
       <subjectdef keys="prod-saas-message-archivingv1-0-x" navtitle="SaaS Email Archiving">
          <subjectdef keys="prod-saas-message-archiving-v1-0-x" navtitle="SAAS-EMA"/>
       </subjectdef>
-      <subjectdef keys="prod-saas-email-protectionv1-0-x" navtitle="SaaS Email Protection">
+      <subjectdef keys="prod-saas-email-protectionv1-0-x" navtitle="Saas Email Protection">
          <subjectdef keys="prod-saas-email-protection-v1-0-x" navtitle="SAAS-EMP"/>
       </subjectdef>
       <subjectdef keys="prod-saas-order-management" navtitle="SaaS Order Management">
          <subjectdef keys="prod-saas-order-management-v1-0-x" navtitle="SAAS-OM 1.0.x">
             <subjectdef keys="prod-saas-order-management-v1-0-0" navtitle="SAAS-OM 1.0.0"/>
          </subjectdef>
-      </subjectdef>
-      <subjectdef keys="prod-saas-web-protectionv8-5-x" navtitle="SaaS Web Protection Service">
-         <subjectdef keys="prod-saas-web-protection-v8-5-x" navtitle="SAAS-WPS"/>
-      </subjectdef>
-      <subjectdef keys="prod-security-as-aservice" navtitle="Security as a Service">
-         <subjectdef keys="prod-security-as-a-service" navtitle="SAAS"/>
       </subjectdef>
       <subjectdef keys="prod-security-lotus-domino" navtitle="Security for Lotus Domino">
          <subjectdef keys="prod-security-lotus-domino-v7-5-x" navtitle="MSDW 7.5.x">
@@ -946,13 +733,12 @@
             <subjectdef keys="prod-security-lotus-domino-v7-5-0" navtitle="MSDW 7.5.0"/>
          </subjectdef>
       </subjectdef>
-      <subjectdef keys="prod-security-microsoft-exchange"
-                  navtitle="Security for Microsoft Exchange">
+      <subjectdef keys="prod-security-microsoft-exchange" navtitle="Security for Microsoft Exchange">
          <subjectdef keys="prod-security-microsoft-exchange-v8-8-x" navtitle="MSME 8.8.x"/>
          <subjectdef keys="prod-security-microsoft-exchange-v8-7-x" navtitle="MSME 8.7.x"/>
          <subjectdef keys="prod-security-microsoft-exchange-v8-6-x" navtitle="MSME 8.6.x">
-            <subjectdef keys="prod-security-microsoft-exchange-v8-6-4" navtitle="MME 8.6.4"/>
-            <subjectdef keys="prod-security-microsoft-exchange-v8-6-3" navtitle="MME 8.6.3"/>
+            <subjectdef keys="prod-security-microsoft-exchange-v8-6-4" navtitle="MSME 8.6.4"/>
+            <subjectdef keys="prod-security-microsoft-exchange-v8-6-3" navtitle="MSME 8.6.3"/>
             <subjectdef keys="prod-security-microsoft-exchange-v8-6-2" navtitle="MSME 8.6.2"/>
             <subjectdef keys="prod-security-microsoft-exchange-v8-6-1" navtitle="MSME 8.6.1"/>
             <subjectdef keys="prod-security-microsoft-exchange-v8-6-0" navtitle="MSME 8.6.0"/>
@@ -961,14 +747,8 @@
             <subjectdef keys="prod-security-microsoft-exchange-v8-5-1" navtitle="MSME 8.5.1"/>
             <subjectdef keys="prod-security-microsoft-exchange-v8-5-0" navtitle="MSME 8.5.0"/>
          </subjectdef>
-         <subjectdef keys="prod-security-microsoft-exchange-v8-0-x" navtitle="MSME 8.0.x">
-            <subjectdef keys="prod-security-microsoft-exchange-v8-0-2" navtitle="MSME 8.0.2"/>
-            <subjectdef keys="prod-security-microsoft-exchange-v8-0-1" navtitle="MSME 8.0.1"/>
-            <subjectdef keys="prod-security-microsoft-exchange-v8-0-0" navtitle="MSME 8.0.0"/>
-         </subjectdef>
       </subjectdef>
-      <subjectdef keys="prod-security-microsoft-sharepoint"
-                  navtitle="Security for Microsoft SharePoint">
+      <subjectdef keys="prod-security-microsoft-sharepoint" navtitle="Security for Microsoft SharePoint">
          <subjectdef keys="prod-security-microsoft-sharepoint-v3-5-x" navtitle="MSMS 3.5.x"/>
          <subjectdef keys="prod-security-microsoft-sharepoint-v3-0-x" navtitle="MSMS 3.0.x"/>
       </subjectdef>
@@ -983,8 +763,7 @@
             <subjectdef keys="prod-siteadvisor-enterprise-v3-5-0" navtitle="SAE 3.5.0"/>
          </subjectdef>
       </subjectdef>
-      <subjectdef keys="prod-threat-intelligence-exchange"
-                  navtitle="Threat Intelligence Exchange">
+      <subjectdef keys="prod-threat-intelligence-exchange" navtitle="Threat Intelligence Exchange">
          <subjectdef keys="prod-mvision-threat-intelligenceexchange" navtitle="MVISION">
             <subjectdef keys="prod-mvision-threat-intelligence-exchange" navtitle="MV-TIE"/>
          </subjectdef>
@@ -1002,33 +781,23 @@
                <subjectdef keys="prod-threat-intelligence-exchange-v2-0-1" navtitle="TIE 2.0.1"/>
                <subjectdef keys="prod-threat-intelligence-exchange-v2-0-0" navtitle="TIE 2.0.0"/>
             </subjectdef>
-            <subjectdef keys="prod-threat-intelligence-exchange-v1-3-x" navtitle="TIE 1.3.x"/>
          </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-trustedsource" navtitle="TrustedSource">
          <subjectdef keys="prod-trustedsource-v2-5-x" navtitle="MTS 2.5.x"/>
       </subjectdef>
-      <subjectdef keys="prod-virtual-network-security-platform"
-                  navtitle="Virtual Network Security Platform">
+      <subjectdef keys="prod-virtual-network-security-platform" navtitle="Virtual Network Security Platform">
          <subjectdef keys="prod-virtual-network-security-platform-v10-1-x" navtitle="VNSP 10.1.x">
-            <subjectdef keys="prod-virtual-network-security-platform-v10-1-0-manager-sensor"
-                        navtitle="VNSP 10.1.0"/>
+            <subjectdef keys="prod-virtual-network-security-platform-v10-1-0-manager-sensor" navtitle="VNSP 10.1.0"/>
          </subjectdef>
          <subjectdef keys="prod-virtual-network-security-platform-v9-3-x" navtitle="VNSP 9.3.x">
-            <subjectdef keys="prod-virtual-network-security-platform-v9-3-0-manager-sensor"
-                        navtitle="VNSP 9.3.0"/>
+            <subjectdef keys="prod-virtual-network-security-platform-v9-3-0-manager-sensor" navtitle="VNSP 9.3.0"/>
          </subjectdef>
          <subjectdef keys="prod-virtual-network-security-platform-v9-2-x" navtitle="VNSP 9.2.x">
-            <subjectdef keys="prod-virtual-network-security-platform-v9-2-0-manager-sensor"
-                        navtitle="VNSP 9.2.0"/>
+            <subjectdef keys="prod-virtual-network-security-platform-v9-2-0-manager-sensor" navtitle="VNSP 9.2.0"/>
          </subjectdef>
          <subjectdef keys="prod-virtual-network-security-platform-v9-1-x" navtitle="VNSP 9.1.x">
-            <subjectdef keys="prod-virtual-network-security-platform-v9-1-0-manager-sensor"
-                        navtitle="VNSP 9.1.0"/>
-         </subjectdef>
-         <subjectdef keys="prod-virtual-network-security-platform-v8-1-x" navtitle="VSNP 8.1.x">
-            <subjectdef keys="prod-virtual-network-security-platform-v8-1-x-manager-sensor"
-                        navtitle="VNSP 8.1.x"/>
+            <subjectdef keys="prod-virtual-network-security-platform-v9-1-0-manager-sensor" navtitle="VNSP 9.1.0"/>
          </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-virusscan-enterprise" navtitle="VirusScan Enterprise">
@@ -1052,8 +821,7 @@
             <subjectdef keys="prod-virusscan-enterprise-v8-8-0" navtitle="VSE 8.8.0"/>
          </subjectdef>
       </subjectdef>
-      <subjectdef keys="prod-virusscan-enterprise-linux"
-                  navtitle="VirusScan Enterprise for Linux">
+      <subjectdef keys="prod-virusscan-enterprise-linux" navtitle="VirusScan Enterprise for Linux">
          <subjectdef keys="prod-virusscan-enterprise-linux-v2-0-x" navtitle="VSEL 2.0.x">
             <subjectdef keys="prod-virusscan-enterprise-linux-v2-0-3" navtitle="VSEL 2.0.3"/>
             <subjectdef keys="prod-virusscan-enterprise-linux-v2-0-2" navtitle="VSEL 2.0.2"/>
@@ -1066,13 +834,11 @@
             <subjectdef keys="prod-virusscan-enterprise-linux-v1-9-0" navtitle="VSEL 1.9.0"/>
          </subjectdef>
       </subjectdef>
-      <subjectdef keys="prod-virusscan-enterprise-storage"
-                  navtitle="VirusScan Enterprise for Storage">
-         <subjectdef keys="prod-virusscan-enterprise-storage-v1-3-x" navtitle="VSES 1.3.x"/>
-         <subjectdef keys="prod-virusscan-enterprise-storage-v1-2-x" navtitle="VSES 1.2.x"/>
+      <subjectdef keys="prod-virusscan-enterprise-storage" navtitle="VirusScan Enterprise for Storage">
+         <subjectdef keys="prod-virusscan-enterprise-linux-v1-3-x" navtitle="VSES 1.3.x"/>
+         <subjectdef keys="prod-virusscan-enterprise-linux-v1-2-x" navtitle="VSES 1.2.x"/>
       </subjectdef>
-      <subjectdef keys="prod-virusscan-command-line-scanner"
-                  navtitle="VirusScan Command Line Scanner">
+      <subjectdef keys="prod-virusscan-command-line-scanner" navtitle="VirusScan Command Line Scanner">
          <subjectdef keys="prod-virusscan-command-line-scanner-v6-1-x" navtitle="VSE-CLS 6.1.x"/>
       </subjectdef>
       <subjectdef keys="prod-virusscan-mac" navtitle="VirusScan for Mac">
@@ -1083,8 +849,7 @@
       <subjectdef keys="prod-vulnerability-manager" navtitle="Vulnerability Manager">
          <subjectdef keys="prod-vulnerability-manager-v7-5-x" navtitle="MVM 7.5.x"/>
       </subjectdef>
-      <subjectdef keys="prod-vulnerability-manager-databases"
-                  navtitle="Vulnerability Manager for Databases">
+      <subjectdef keys="prod-vulnerability-manager-databases" navtitle="Vulnerability Manager for Databases">
          <subjectdef keys="prod-vulnerability-manager-databases-v5-2-x" navtitle="MVM-D 5.2.x"/>
          <subjectdef keys="prod-vulnerability-manager-databases-v5-1-x" navtitle="MVM-D 5.1.x">
             <subjectdef keys="prod-vulnerability-manager-databases-v5-1-3" navtitle="MVM-D 5.1.3"/>
@@ -1111,11 +876,6 @@
             <subjectdef keys="prod-web-gateway-v7-7-1" navtitle="MWG 7.7.1"/>
             <subjectdef keys="prod-web-gateway-v7-7-0" navtitle="MWG 7.7.0"/>
          </subjectdef>
-         <subjectdef keys="prod-web-gateway-v7-6-x" navtitle="MWG 7.6.x">
-            <subjectdef keys="prod-web-gateway-v7-6-2" navtitle="MWG 7.6.2"/>
-            <subjectdef keys="prod-web-gateway-v7-6-1" navtitle="MWG 7.6.1"/>
-            <subjectdef keys="prod-web-gateway-v7-6-0" navtitle="MWG 7.6.0"/>
-         </subjectdef>
       </subjectdef>
       <subjectdef keys="prod-web-gateway-cloudservice" navtitle="Web Gateway Cloud Service">
          <subjectdef keys="prod-web-gateway-cloud-service-unified-cloud-edge" navtitle="WGCS-UCE"/>
@@ -1129,7 +889,7 @@
       <subjectdef keys="cat-migration" navtitle="Migration"/>
       <subjectdef keys="cat-product" navtitle="Product Usage"/>
       <subjectdef keys="cat-reference" navtitle="Reference"/>
-      <subjectdef keys="cat-release-notes" navtitle="Release Notes"/>
+      <subjectdef keys="cat-release-notes" navtitle="Release-Notes"/>
    </subjectHead>
    <subjectHead navtitle="Landing" id="landing-head" outputclass="landing">
       <subjectdef keys="land-endpoint-security-v10-7-x" navtitle="ENS 10.7.x"/>
@@ -1139,9 +899,7 @@
       <subjectdef keys="land-endpoint-security-v10-5-x" navtitle="ENS 10.5.x">
          <subjectdef keys="land-endpoint-security-v10-5-0" navtitle="ENS 10.5.0"/>
       </subjectdef>
-      <subjectdef keys="land-epo-v5-10-x" navtitle="EPO 5.10.x">
-      </subjectdef>
-      <subjectdef keys="land-epo-v5-9-x" navtitle="EPO 5.9.x">
-      </subjectdef>
+      <subjectdef keys="land-epo-v5-10-x" navtitle="EPO 5.10.x"/>
+      <subjectdef keys="land-epo-v5-9-x" navtitle="EPO 5.9.x"/>
    </subjectHead>
 </subjectScheme>

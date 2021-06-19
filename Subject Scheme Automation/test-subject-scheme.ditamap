@@ -5,7 +5,6 @@
    <subjectHead navtitle="Product" id="product-head">
       <subjectdef keys="prod-active-response" navtitle="Active Response">
          <subjectdef keys="prod-active-response-v2-4-x" navtitle="MAR 2.4.x">
-            <subjectdef keys="prod-active-response-v2-4-5" navtitle="MAR 2.4.5"/>
             <subjectdef keys="prod-active-response-v2-4-4" navtitle="MAR 2.4.4"/>
             <subjectdef keys="prod-active-response-v2-4-3" navtitle="MAR 2.4.3"/>
             <subjectdef keys="prod-active-response-v2-4-2" navtitle="MAR 2.4.2"/>

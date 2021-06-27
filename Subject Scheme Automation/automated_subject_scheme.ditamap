@@ -372,11 +372,6 @@
             <subjectdef keys="prod-endpoint-intelligence-agent-v2-6-0" navtitle="EIA 2.6.0"/>
          </subjectdef>
       </subjectdef>
-      <subjectdef keys="prod-endpoint-protection-mac" navtitle="Endpoint Protection for Mac">
-         <subjectdef keys="prod-endpoint-protection-mac-v2-3-x" navtitle="MEPM 2.3.x"/>
-         <subjectdef keys="prod-endpoint-protection-mac-v2-2-x" navtitle="MEPM 2.2.x"/>
-         <subjectdef keys="prod-endpoint-protection-mac-v2-1-x" navtitle="MEPM 2.1.x"/>
-      </subjectdef>
       <subjectdef keys="prod-endpoint-security" navtitle="Endpoint Security">
          <subjectdef keys="prod-endpoint-security-v10-7-x" navtitle="ENS 10.7.x">
             <subjectdef keys="prod-endpoint-security-v10-7-0-threat-prevention" navtitle="ENS-TP 10.7.x"/>

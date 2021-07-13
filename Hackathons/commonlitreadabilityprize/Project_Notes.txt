@@ -1,0 +1,12 @@
+Project Notes
+
+1. Max length of top 3 sentences
+2. Max length of top 3 words in sentences/paras
+3. Check in nlp.vocab for sm, md, and lg
+4. Parts of Speech correlation
+5. Named Entity Recognition correlation
+6. Noun Chunks
+7. Check in Tensorflow for more text extraction methods
+8. Tfidf Vectorizer
+9. Best params for models using GridSearchCV
+10. 

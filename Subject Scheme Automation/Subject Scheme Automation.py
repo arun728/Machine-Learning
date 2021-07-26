@@ -1,46 +1,31 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Log in to the Subject Scheme Confluence Page
-
-# In[1]:
-
-
 import requests
 import bs4
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
 
-
-# In[2]:
-
-
 headers = {"user-agent": 'mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/83.0.4103.116 safari/537.36'}
 
-login_data = {
-    'os_username' : 'akumar5',
-    'os_password' : 'Decem@2020',
-    'login' : 'Log in'
-    }
+
+# Log in to the Subject Scheme Confluence page and grab the html source
 
 with requests.Session() as requests:
     url = 'https://confluence-lvs.prod.mcafee.com/pages/viewpage.action?spaceKey=IDCS&title=Subject+scheme+tracking'
     source = requests.get(url, headers=headers)
     soup = BeautifulSoup(source.content, 'lxml')
-    login_data['SAMLRequest'] = soup.find('input', attrs={'name': 'SAMLRequest'})['value']
+    login_data = {
+    'os_username' : 'akumar5',
+    'os_password' : 'Decem@2020',
+    'SAMLRequest': soup.find('input', attrs={'name': 'SAMLRequest'})['value'],
+    'login' : 'Log in'
+    }
     source = requests.post(url, data=login_data, headers=headers)
     
     new_source = requests.get('https://confluence-lvs.prod.mcafee.com/pages/viewpage.action?spaceKey=IDCS&title=Subject+scheme+tracking').text
     soup = BeautifulSoup(new_source, 'lxml')
-    print(soup)
-    
-
-
-# # Splitting the Product Names and Product Keys into Separate Lists
-
-# In[3]:
-
+    # print(soup)
+        
+#Splitting the Product Names and Product Keys into Separate Lists
 
 rows = []
 
@@ -53,11 +38,6 @@ for tr in table_rows:
     for item in td:
         row = item.text
         rows.append(row)
-        
-
-
-# In[4]:
-
 
 product_names = []
 product_keys = []
@@ -78,43 +58,12 @@ for tr in table_rows:
     product_names.append(col1)
     product_keys.append(col2)
 
-
-# In[5]:
-
-
 prod_dict = dict(zip(product_keys, product_names))
 
-
-# # Building the XML document
-
-# In[6]:
-
+# Building the XML document
 
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
-
-
-# In[7]:
-
-
-# with open('arun.ditamap') as f:
-#     lines = f.readlines()
-    
-# with open('test.ditamap', 'a+') as file:
-#     contents = file.writelines(lines)
-
-
-# In[10]:
-
-
-subjectdef1 = ET.SubElement(subjectHead, "subjectdef", keys=k, navtitle=v)
-subjectdef2 = ET.SubElement(subjectdef1, "subjectdef", keys=k, navtitle=v)
-subjectdef3 = ET.SubElement(subjectdef2, "subjectdef", keys=k, navtitle=v)
-subjectdef4 = ET.SubElement(subjectdef3, "subjectdef", keys=k, navtitle=v)
-
-
-# In[11]:
-
 
 root = ET.Element("subjectScheme")
 subjectHead = ET.SubElement(root, "subjectHead", navtitle='Product', id='product-head')
@@ -124,7 +73,7 @@ subjectHead3 = ET.SubElement(root, "subjectHead", navtitle='Landing', id='landin
 # Product facets
 for k,v in prod_dict.items():
       
-    if re.findall(r'\D{5,}', v) and 'Cloud Threat Detection' not in v and 'Device Control' not in v and 'System Information Reporter' not in v and 'Saas Web Protection Service' not in v and 'SAAS-WPS' not in v and 'Security as a Service' not in v:
+    if re.findall(r'\D{5,}', v) and 'Cloud Threat Detection' not in v and 'Endpoint Protection for Mac' not in v and 'Device Control' not in v and 'System Information Reporter' not in v and 'Saas Web Protection Service' not in v and 'SAAS-WPS' not in v and 'Security as a Service' not in v:
         # MACC
         if re.findall(r'Application and Change Control', v):
             subjectdef2 = ET.SubElement(subjectdef1, "subjectdef", keys=k, navtitle=v)
@@ -322,10 +271,6 @@ xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
 with open("automated_subject_scheme.ditamap", "w") as f:
     f.write(xmlstr)
 
-
-# In[13]:
-
-
 with open('header_schema.ditamap') as f:
     schema = f.readlines()
     
@@ -339,9 +284,4 @@ with open('automated_subject_scheme.ditamap') as f:
 with open('subject-scheme.ditamap', 'a+') as f:
     final = f.writelines(subject_scheme) 
 
-
-# In[ ]:
-
-
-
-
+print("Subject Scheme updated")

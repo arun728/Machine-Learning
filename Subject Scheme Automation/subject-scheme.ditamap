@@ -1,4 +1,6 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE subjectScheme
+  PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "map.dtd">
 <subjectScheme>
    <subjectHead navtitle="Product" id="product-head">
       <subjectdef keys="prod-active-response" navtitle="Active Response">
@@ -257,13 +259,6 @@
             <subjectdef keys="prod-mvision-data-loss-prevention-monitor" navtitle="MV-DLPM"/>
          </subjectdef>
          <subjectdef keys="prod-data-loss-prevention-on-premises" navtitle="On-premises">
-            <subjectdef keys="prod-data-loss-prevention-v11-9-x" navtitle="DLP 11.9.x">
-               <subjectdef keys="prod-data-loss-prevention-v11-9-x-endpoint" navtitle="DLPE 11.9.x"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-9-x-endpoint-mac" navtitle="DLPMac 11.9.x"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-9-x-discover" navtitle="DLPD 11.9.x"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-9-x-prevent" navtitle="DLPP 11.9.x"/>
-               <subjectdef keys="prod-data-loss-prevention-v11-9-x-monitor" navtitle="DLPM 11.9.x"/>
-            </subjectdef>
             <subjectdef keys="prod-data-loss-prevention-v11-8-x" navtitle="DLP 11.8.x">
                <subjectdef keys="prod-data-loss-prevention-v11-8-x-endpoint" navtitle="DLPE 11.8.x"/>
                <subjectdef keys="prod-data-loss-prevention-v11-8-x-endpoint-mac" navtitle="DLPMac 11.8.x"/>
@@ -442,9 +437,6 @@
          <subjectdef keys="prod-endpoint-security-servers-v5-0-x" navtitle="ENSS 5.0.x">
             <subjectdef keys="prod-endpoint-security-servers-v5-0-0" navtitle="ENSS 5.0.0"/>
          </subjectdef>
-      </subjectdef>
-      <subjectdef keys="prod-endpoint-security-storage-protection" navtitle="Endpoint Security Storage Protection">
-         <subjectdef keys="prod-endpoint-security-storage-protection-v2-0-x" navtitle="ENSSTP 2.0.x"/>
       </subjectdef>
       <subjectdef keys="prod-endpoint-upgrade-assistant" navtitle="Endpoint Upgrade Assistant">
          <subjectdef keys="prod-endpoint-upgrade-assistant-v2-10-x" navtitle="EUA 2.10.x"/>
@@ -636,9 +628,6 @@
       </subjectdef>
       <subjectdef keys="prod-mvision-mobile-v1-00" navtitle="MVISION Mobile">
          <subjectdef keys="prod-mvision-mobile-v1-0-0" navtitle="MV-M"/>
-      </subjectdef>
-      <subjectdef keys="prod-mvision-privateaccess" navtitle="MVISION Private Access">
-         <subjectdef keys="prod-mvision-private-access" navtitle="MV-PA"/>
       </subjectdef>
       <subjectdef keys="prod-mvision-unified-cloudedge" navtitle="MVISION Unified Cloud Edge">
          <subjectdef keys="prod-mvision-unified-cloud-edge" navtitle="MV-UCE"/>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nested>
+	<!-- 404 page useful content -->
+	<node type="category" displayName="Useful Content" outputclass="usefulContent">
+		<node type="linkBox" displayName="Top Products" outputclass="usefulContent">
+			<node type="linkBox" url="https://success.myshn.net" displayName="Box1 Link1"/>
+			<node type="linkBox" url="/bundle?labelkey=prod-cloud-workload-discovery-v5-3-x" displayName="Box1 Link2"/>
+			<node type="linkBox" url="/bundle?labelkey=prod-virtual-network-security-platform-v9-2-0-manager-sensor" displayName="Box1 Link3"/>
+		</node>
+		<node type="linkBox" displayName="Trending Topics" outputclass="usefulContent">
+			<node type="linkBox" url="https://success.myshn.net" displayName="Box2 Link1"/>
+			<node type="linkBox" url="/bundle?labelkey=prod-cloud-workload-discovery-v5-3-x" displayName="Box2 Link2"/>
+			<node type="linkBox" url="/bundle?labelkey=prod-virtual-network-security-platform-v9-2-0-manager-sensor" displayName="Box2 Link3"/>
+		</node>
+			<node type="linkBox" displayName="Useful Links" outputclass="usefulContent">
+			<node type="linkBox" url="https://success.myshn.net" displayName="Box3 Link1"/>
+			<node type="linkBox" url="/bundle?labelkey=prod-cloud-workload-discovery-v5-3-x" displayName="Box3 Link2"/>
+			<node type="linkBox" url="/bundle?labelkey=prod-virtual-network-security-platform-v9-2-0-manager-sensor" displayName="Box3 Link3"/>
+		</node>
+	</node>
+</nested>

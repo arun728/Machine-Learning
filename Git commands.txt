@@ -59,6 +59,15 @@ Create a branch:
 Checkout a branch:
 	git checkout <name of the branch>
 
+Once you make changes to the code:
+	git add -A (add changes to staging)
+	git status
+	git commit -m "type your commit message here"
+	git push -u origin <name of branch>
+	git branch -a
+
+
+
 Merge a branch:
 	git checkout master
 	git pull origin master

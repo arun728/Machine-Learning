@@ -60,13 +60,11 @@ Checkout a branch:
 	git checkout <name of the branch>
 
 Once you make changes to the code:
-	git add -A (add changes to staging)
+	git add -A (add your changes to staging)
 	git status
 	git commit -m "type your commit message here"
 	git push -u origin <name of branch>
-	git branch -a
-
-
+	git branch -a (lists the available branches)
 
 Merge a branch:
 	git checkout master

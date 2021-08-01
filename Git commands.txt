@@ -63,8 +63,8 @@ Once you make changes to the code:
 	git add -A (add your changes to staging)
 	git status
 	git commit -m "type your commit message here"
-	git push -u origin <name of branch>
 	git branch -a (lists the available branches)
+	git push -u origin <name of branch>
 
 Merge a branch:
 	git checkout master
@@ -78,4 +78,3 @@ Delete a branch:
 	git branch -a - check the repo branches 
 	git push origin --delete <name of the branch> - this deletes it from the repo
 
-	

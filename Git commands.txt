@@ -76,4 +76,4 @@ Merge a branch:
 Delete a branch:
 	git branch -d <name of the branch> - this deletes it locally!!!
 	git branch -a - check the repo branches 
-	git push origin --delete <name of the branch> - this deletes it from the repo!
+	git push origin --delete <name of the branch> - this deletes it from the repo

@@ -4,4 +4,4 @@ Remove related biased X features, (mostly not required) re-label related biases 
 Predict the FitmentPercent on Test.csv using Regression
 Create an Ensemble of models to improve performance
 Tune the hyper-parameters for further performance improvement
-Create a presentation
+Create a presentation and test

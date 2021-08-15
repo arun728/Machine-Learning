@@ -1,0 +1,24 @@
+version: '3.7'
+
+services:
+
+  # web:
+  #   build: ./web
+  #   expose:
+  #     - "8000"
+  #   container_name: web
+  #   volumes:
+  #     - .:/web
+  #   ports:
+  #     - "8000:8000"
+
+  proxy:
+    build: ./proxy
+    command: bash -c "python manage.py runserver 0.0.0.0:443"
+    container_name: proxy
+    volumes:
+      - .:/proxy
+    expose:
+      - "443"
+    ports:
+      - "443:443"

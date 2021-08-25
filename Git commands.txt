@@ -78,4 +78,3 @@ Delete a branch:
 	git branch -a - check the repo branches 
 	git push origin --delete <name of the branch> - this deletes it from the repo
 
-#test

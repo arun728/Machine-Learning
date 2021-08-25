@@ -1,0 +1,5 @@
+Allow writers to toggle the display of <draft-comments> elements in the Staging Portal output. When publishing to the Staging Portal, writers should be able to choose whether <draft-comments> elements appear in the output or not. When publishing to the Prod Portal, <draft-comments> should never be included in the output. Because writers include <draft-comments> that apply to future releases, they need the ability to hide these elements in Staging; for example, for a final approval of the content.
+
+Currently writers must either delete or conditionalize these elements which creates a maintenance burden and risk publishing reviewer questions in production content.
+
+[~pgiesing]

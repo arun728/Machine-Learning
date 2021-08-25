@@ -1,0 +1,40 @@
+Docker commands
+
+docker ps -all -> to list all docker containers ever run
+
+docker run <image-name> -> to run a docker image and start the container
+example - docker run busybox
+
+docker create <image-name> echo hi there -> to override existing command and add your own -> this wil create and output the container id
+
+docker start -a <contaier id> -> to start the container that exited -> -a is required to see the output of the container in the cmd line.
+
+docker system prune -> to remove all containers ever created!!!
+
+docker logs <container id> -> to check the output and logs of the container
+
+docker stop <container id> -> to stop a running container at its time and if doesn't will induce the kill command in 10 seconds
+
+docker kill <container id> -> to kill a running container instantly 
+
+docker run redis -> to run redis container
+
+docker exec -it <container id> redis-cli -> "-it" means input -> "redis-cli" is the commmand we need to open the redis cli
+
+docker exec -it <container id> sh -> opens the shell access directly -> apart from sh, bash, powershell, and zsh also available on some established containers
+
+Note: If ctrl+c does not work to exit out of shell, use ctrl+d
+
+docker run -it <container> sh -> to run a container from scratch and straight away open the shell
+
+example - docker run -it busybox sh
+
+
+
+
+
+
+
+
+
+

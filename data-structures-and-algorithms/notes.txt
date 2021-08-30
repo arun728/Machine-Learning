@@ -11,3 +11,4 @@ Low level arrays - each unicode character in python will be assigned a cell in m
 Referential arrays - While performing indexing, slicing or copy, each copy is only just referneced from the original and not newly created all over again.
 Dynamic arrays - Python will always allocate more memory dynamically as inputs keep coming than what's already needed, so it runs out of memory.
 
+# test

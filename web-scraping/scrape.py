@@ -16,7 +16,7 @@ articles = soup.find_all('article')
 
 for article in articles:
 
-	headline = article.find(class_='entry-title-link').text
+	headline = article.h2.text
 
 	print(headline)
 

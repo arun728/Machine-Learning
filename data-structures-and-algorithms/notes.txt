@@ -1,0 +1,13 @@
+Big O Notation
+
+Big O(1) - Constant
+Big log(N) - going thru half the size of n
+Big O(N) - size of n, for loop and while loops - 2 separate for and while loops 
+Big(N^2) - Two nested for and while loops
+
+Arrays
+
+Low level arrays - each unicode character in python will be assigned a cell in memory which is of size 2 bytes (16 bits)
+Referential arrays - While performing indexing, slicing or copy, each copy is only just referneced from the original and not newly created all over again.
+Dynamic arrays - Python will always allocate more memory dynamically as inputs keep coming than what's already needed, so it runs out of memory.
+

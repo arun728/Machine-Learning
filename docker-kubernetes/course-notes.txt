@@ -1,8 +1,8 @@
 Docker commands
 
-docker ps -all -> to list the latest docker container being run
-
 docker ps -a -> to list all docker containers ever run
+
+docker ps -all -> to list the latest docker container being run
 
 docker run <image-name> -> to run a docker image and start the container
 example - docker run busybox

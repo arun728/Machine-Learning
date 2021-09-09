@@ -27,7 +27,7 @@ docker exec -it <container id> sh -> opens the shell access directly -> apart fr
 
 Note: If ctrl+c does not work to exit out of shell, use ctrl+d
 
-docker run -it <container> sh -> to run a container from scratch and straight away open the shell
+docker run -it <container-name> sh -> to run a container from scratch and straight away open the shell
 
 example - docker run -it busybox sh
 

@@ -31,7 +31,9 @@ docker run -it <container-name> sh -> to run a container from scratch and straig
 
 example - docker run -it busybox sh
 
+docker-compose ps -> to list all running containers thru docker compose file
 
+docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app <image id or name> -> This command will run an image in a container with port mapping of 3000 and also set a docker volume of current working directory in local and container.
 
 
 

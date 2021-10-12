@@ -3,6 +3,7 @@ conda activate mytfenv # activate an environment
 conda deactivate # deactivate an environment
 pip install -r requirements.txt # installing from the requirements file
 conda env remove -n ENV_NAME # to delete a conda environment
+conda info --envs # List all conda environments
 
 
 # For tab autocomplete to work in Jupyter notebook

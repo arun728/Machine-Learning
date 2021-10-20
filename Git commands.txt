@@ -1,3 +1,5 @@
+# Git Commands
+
 Terminal commands:
 	ls - lists all of the folders 
 	ls -la - lists all of the files 
